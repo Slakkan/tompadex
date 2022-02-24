@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     }, []);
     return <div>
         {!pokedex.length && <div className="loader"></div>}
-        <h1>Cachoito pota biem</h1>
+        <h1>Cachoito pota MUY biem</h1>
     </div>;
 };
 
