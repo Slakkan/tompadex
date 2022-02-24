@@ -15,7 +15,10 @@ const Home: NextPage = () => {
                 .then((res) => setPokedex(res));
         }, 1500);
     }, []);
-    return <div>{!pokedex.length && <div className="loader"></div>}</div>;
+    return <div>
+        {!pokedex.length && <div className="loader"></div>}
+        <h1>Cachoito pota MUY biem</h1>
+    </div>;
 };
 
 export default Home;
